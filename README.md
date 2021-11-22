@@ -1,9 +1,13 @@
-# ASUS GL552VW Hackintosh
+# ASUS GL552VW Hackintosh - Catalina version
 
+> I'll update to Big Sur ASAP, but that may take some time (but well Big Sur has better Wifi driver for AR9565 and its completed dark theme)
 My first time hackintosh for GL552VW
-> This project is forked from https://github.com/baobaoit/Asus-ROG-GL552VW-Hackintosh with some changes for my laptop.
+> This project is forked from [baobaoit/Asus-ROG-GL552VW-Hackintosh](https://github.com/baobaoit/Asus-ROG-GL552VW-Hackintosh) with some changes for my laptop (broken BIOS and other wifi card)
+
 ## Specifications
-```
+
+```bash
+
 00:00.0 Host bridge [0600]: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1910] (rev 07)
 00:01.0 PCI bridge [0604]: Intel Corporation 6th-10th Gen Core Processor PCIe Controller (x16) [8086:1901] (rev 07)
 00:02.0 VGA compatible controller [0300]: Intel Corporation HD Graphics 530 [8086:191b] (rev 06)
@@ -24,11 +28,22 @@ My first time hackintosh for GL552VW
 02:00.0 Network controller [0280]: Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter [168c:0036] (rev 01)
 03:00.0 Unassigned class [ff00]: Realtek Semiconductor Co., Ltd. RTL8411B PCI Express Card Reader [10ec:5287] (rev 01)
 03:00.1 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 12)
+
 ```
-(sorry for my laziness :P)
+
 ### Working
+
 + Ethernet (LAN)
 + SATA drives
 + All USB ports
 + Keyboard
-+ ... not tested.
++ Wifi (but very slow)
+
+### Not Working
+
++ Keyboard backlight (broken BIOS so can't do DSDT)
++ NVIDIA GPU
+
+#### License
+
+MIT License, all Kexts belong to their owners with their licenses.
