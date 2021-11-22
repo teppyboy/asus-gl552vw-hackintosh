@@ -1,13 +1,11 @@
 # ASUS GL552VW Hackintosh - Catalina version
 
-> I'll update to Big Sur ASAP, but that may take some time (but well Big Sur has better Wifi driver for AR9565 and its completed dark theme)
 My first time hackintosh for GL552VW
-> This project is forked from [baobaoit/Asus-ROG-GL552VW-Hackintosh](https://github.com/baobaoit/Asus-ROG-GL552VW-Hackintosh) with some changes for my laptop (broken BIOS and other wifi card)
+> I'll update to Big Sur ASAP, but that may take some time (but well Big Sur has better Wifi driver for AR9565 and its completed dark theme)
 
 ## Specifications
 
 ```bash
-
 00:00.0 Host bridge [0600]: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1910] (rev 07)
 00:01.0 PCI bridge [0604]: Intel Corporation 6th-10th Gen Core Processor PCIe Controller (x16) [8086:1901] (rev 07)
 00:02.0 VGA compatible controller [0300]: Intel Corporation HD Graphics 530 [8086:191b] (rev 06)
@@ -47,3 +45,4 @@ My first time hackintosh for GL552VW
 #### License
 
 MIT License, all Kexts belong to their owners with their licenses.
+> This project is forked from [baobaoit/Asus-ROG-GL552VW-Hackintosh](https://github.com/baobaoit/Asus-ROG-GL552VW-Hackintosh) with some changes for my laptop (broken BIOS and other wifi card)
