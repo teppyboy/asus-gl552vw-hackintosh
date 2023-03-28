@@ -1,3 +1,5 @@
+> Unfortunately my GL552VW is dead and my new device doesn't have intel iGPU so oof, project archived.
+
 # ASUS GL552VW Hackintosh - Catalina version
 
 My first time hackintosh for GL552VW
