@@ -1,9 +1,7 @@
-> Unfortunately my GL552VW is dead and my new device doesn't have intel iGPU so oof, project archived.
+# ASUS GL552VW Hackintosh - Monterey version
 
-# ASUS GL552VW Hackintosh - Catalina version
-
-My first time hackintosh for GL552VW
-> I'll update to Big Sur ASAP, but that may take some time (but well Big Sur has better Wifi driver for AR9565 and its completed dark theme)
+My first time hackintosh for GL552VW, updated to Monterey
+> I'll try to update to Sonoma/Sequoia but this device is old as fuck so it may not boot at all :)
 
 ## Specifications
 
@@ -37,14 +35,16 @@ My first time hackintosh for GL552VW
 + SATA drives
 + All USB ports
 + Keyboard
-+ Wifi (but very slow)
 
 ### Not Working
 
-+ Keyboard backlight (broken BIOS so can't do DSDT)
++ Keyboard backlight 
++ Wifi (Driver is not compatible with Monterey)
++ Touchpad (Help me fix please)
 + NVIDIA GPU
+> The AR9565 is so bad that only 2.4ghz so I just used my Android along with USB tethering instead.
 
 #### License
 
-MIT License, all Kexts belong to their owners with their licenses.
+[MIT License](./LICENSE), all Kexts belong to their owners with their licenses.
 > This project is forked from [baobaoit/Asus-ROG-GL552VW-Hackintosh](https://github.com/baobaoit/Asus-ROG-GL552VW-Hackintosh) with some changes for my laptop (broken BIOS and other wifi card)
