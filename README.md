@@ -46,5 +46,5 @@ My first time hackintosh for GL552VW, updated to Monterey
 
 #### License
 
-[MIT License](./LICENSE), all Kexts belong to their owners with their licenses.
+[MIT](./LICENSE), all Kexts belong to their owners with their licenses.
 > This project is forked from [baobaoit/Asus-ROG-GL552VW-Hackintosh](https://github.com/baobaoit/Asus-ROG-GL552VW-Hackintosh) with some changes for my laptop (broken BIOS and other wifi card)
